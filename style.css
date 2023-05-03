@@ -1,74 +1,353 @@
-
-
-body{
-    background-color: #bbbbbb;
+body {
+    background-color: #cecece;
 }
 
-.AK{
+.AK {
     color: rgb(196, 126, 21);
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 5px;
-
+    font-weight: 700;
+}
+.logo{
+    position: relative;
+    bottom: 4px;
 }
 
-h2{
+h2,
+.text-about h1 {
     color: rgb(196, 126, 21);
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(57, 57, 57);
 }
 
-.nav-link{
+.nav-link {
     color: blue;
 }
 
-.logos{
-    display:inline-flex;
-
+.logos {
+    display: inline-flex;
+    justify-content: space-around;
+    padding-left: 1rem;
 }
 
-.text-home{
+.text-home {
     margin-top: 13rem;
     margin-left: 2rem;
 }
 
-.main{
+.main {
     margin-top: 5rem;
     margin-left: 5rem;
     display: flex;
-    justify-content:baseline;
+    justify-content: baseline;
 }
+
+
+.my-img img {
+    margin-left: 6rem;
+    border-bottom: 8px solid rgb(196, 126, 21);
+    border-radius: 1rem;
+}
+
+/* :hover.my-img img{
+    transform: scaleX(3rem);
+    transition-duration:5s;
+} */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
+}
+
+.img-2 img {
+    width: 20vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: -2rem;
+}
+
+.text-about p {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    border-left: 5px solid rgb(196, 126, 21);
+
+}
+
+.text-about {
+    width: 50vw;
+    text-align: justify;
+}
+
+
+hr {
+    outline: 5px solid white;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+}
+
+
+/* .skill-scale{
+    display: grid;
+    grid-template-columns: auto;
+    height: fit-content;
+}
+
+.container {
+    margin: 100px auto;
+    width: 8rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 47vw;
+    border: none;
+    background-color: goldenrod;
+    color: purple;
+    border-radius: 3rem;
+  }
+
+.container:hover{
+    box-shadow: 2px 2px 2px gray;
+}
+
+.container p{
+    font-size: 15px;
+    font-style:italic;
+    color: black;
+}
+
+.cont-hide{
+    margin: 100px auto;
+    width: 50vw;
+    height: 4rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 47vw;
+    border: none;
+    background-color: goldenrod;
+    color: purple;
+    border-radius: 3rem;}
+
+
+
+   */
+
+.ser-head {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#butn {
+    width: 8rem;
+    height: 3.5rem;
+    background-color: rgb(196, 126, 21);
+    font-weight: 700;
+}
+
+.btn-con {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    margin-bottom: 3rem;
+
+}
+
+.para {
+    position: absolute;
+    top: 3.5rem;
+    left: .5rem;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
+
+#butn {
+    display: flexbox;
+    align-items: center;
+    height: fit-content;
+    border: none;
+    border-radius: 50%;
+    margin: 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#butn:hover {
+    transform: scale(1.1);
+}
+
+
+#bar {
+    width: 15%;
+    height: 2rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    transition: all .3s ease-in-out;
+    font-weight: 900;
+    background-color: #7416d3;
+    text-shadow: black;
+}
+
+#barCss {
+    width: 15%;
+    height: 2rem;
+    background-color:  #c925d7;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    transition: all .3s ease-in-out;
+    font-weight: 800;
+
+}
+
+#barJs {
+    width: 15%;
+    height: 2rem;
+    background-color: #da2c89;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    transition: all .3s ease-in-out;
+    font-weight: 800;
+}
+
+.bars{
+    display: flexbox;
+    justify-content: center;
+}
+
+.git{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.linkdin{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.fiver{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-left: 25px;
+    margin-top: 2px;    
+}
+
+.pro-h{
+    text-align: center;
+    margin: 3rem;
+}
+
+.todo{
+    margin: 3.5rem;
+}
+
+.todo h3{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.AK1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AK1 img{
+    margin: 3rem;
+    width: 16rem;
+}
+
+.cr{
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: rgba(10, 10, 10, 0.899);
+    height:50vh;
+}
+
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+    margin-top: 1rem;
+    color: goldenrod;
+}
+ .list ul li{
+    text-decoration: none;
+ }
+
 @media screen and (max-width: 768px) {
-    .main{
+    .main {
         margin-top: 5rem;
         margin-left: 1rem;
         margin-right: 1rem;
         padding: 1rem;
-        display:grid;
-        grid-template-columns: auto ;        
-        justify-content: center;       
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
     }
-    .my-img img{
+
+    .my-img img {
         margin-top: 4rem;
-        width:70vw; 
-        margin-left: 0px;          
+        width: 70vw;
+        margin-left: 1rem;
     }
-    
-} 
 
+    .about-me {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 3rem;
+    }
+    .AK{
+        font-size: 19px;
+        font-weight: 700;
+    }
+    .img-2 img {
+        width: 30vw;
+        margin-left: 5rem;
+    }
 
-.my-img img{
-    margin-left: 3rem;
-    border-bottom: 8px solid rgb(196, 126, 21);
-    border-radius: 1rem;
-	/* box-shadow: 1px 5px 5px rgba(0,0,0,0.5); */
-}
+    .text-about {
+        width: 80vw;
+    }
 
-/* :hover.my-img img{
-    transform-style: preserve-3d;
-    transition-duration:5s;
-} */
+    #butn {
+        font-size: 12px;
+        width: rem;
+    }
 
-.about-me{
-    display: flexbox;
-    margin: 1rem;
-    margin-top: 8rem;
-    padding: 2rem;
+    #bar, #barCss, #barJs {
+        font-size: 14px;
+        display: flex;
+        justify-self: center;
+   }
+
+   .AK1 img{
+    width: 35% ;
+   }
+
 }

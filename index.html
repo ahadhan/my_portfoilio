@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <style>
+
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
   </head>
@@ -12,7 +16,7 @@
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid" bg-color="gray">
         <a class="navbar-brand" href="#"> <span class="logo"><img src="images/logo.png" width="34vw" alt="logo"></span>
-           <span class="AK"> A.K  &lt;Developer&gt; </span> </a>
+           <span class="AK"> <strong> <i> AHAD TECH. </i></strong> </span> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,21 +31,24 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="index2.html">Know Us</a>
+                <a class="nav-link active" href="#about">Know Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="index3.html">Projects</a>
+                <a class="nav-link active" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#projects">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Contact On 
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#"><div class="logos"><img src="images/fb.png" width="30px" alt="fb"></a> <a class="dropdown-item" href="#"><img src="images/inst.png" width="30px" alt="in"></a></div></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" target="_blank" href="https://www.facebook.com/profile.php?id=100011765257148"><div class="logos"><img src="images/fb.png" width="30px" alt="fb"></a> <a class="dropdown-item" href="https://www.instagram.com/khan_ahad_20/" target="_blank"><img src="images/inst.png" width="30px" alt="in"></a> <a href="https://github.com/ahadhan" target="_blank"><img src="images/git.png" class="git" alt="github"></a> <a href="#"><img src="images/linkdin.png" class="linkdin" alt=""></a><a href="#"><img src="images/fiver.png" class="fiver" alt="fiver"></a></div></li>
+                  <li><a class="dropdown-item " href="https://wa.me/&lt;+92-344-1465266&gt;" target="_blank" >+92-344-1465266</a></li>
                   <li>
                 </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="mailto:ahadkhanmay@gmail.com" target="_blank">ahadkhanmay@gmail.com</a></li>
                 </ul>
               </li>
             </ul>
@@ -50,9 +57,11 @@
               <button class="btn btn-success" type="submit">Search</button>
             </form>
           </div>
-        </div>
+        </div> 
       </div>
     </nav>
+
+      <!-- main-home-page -->
     <div class="main">
       <div class="text-home">
       <h2>Hello!</h2>
@@ -60,7 +69,7 @@
          This is <strong> Abdul Ahad Khan</strong>
       </h1>
       <h4>
-        A Professional Full Stack <span class="AK">Web Developer</span>
+        A Professional Full Stack <span class="AK"><h2>Web Developer</h2></span>
       </h4>
     </div>
 
@@ -68,17 +77,105 @@
       <img src="images/ahad3.png" alt="image of ahad(developer)">
     </div>
     </div>
+    <br>
+    <br>
+    <hr>
 
-    <div class="about-me">
+    <!-- About Page  -->
+
+    <div id="about" class="about-me">
       <div class="img-2">
         <img src="images/img-2-removebg-preview.png" alt="avatar">
       </div>
       <div class="text-about">
-        <h2>About me:</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ad culpa quis iste ipsa animi inventore, quae, doloremque sit incidunt necessitatibus? Impedit, vel dolore?</p>
+        <h1>About me:</h1>
+        <p class="para-1">Creating webpage layouts, wirting code, editing website content, and do custom changes and making adjustments based on client feedback. Design and update websites using various languages and designing tools. Develop websites for companies Discuss options with clients to make sure websites meet their needs as well as needs of their customers and web visitors.</p>
       </div>
     </div>
+    <br>
+    <br>
+    <hr>
+
+      <!-- Services-page -->
+
+    <h2 class="ser-head" id="services">Services & Skills </h2>
+    <button onclick="changeClass()" id="butn"><i> Click here!</i> <p> to see skill-bar</p></button>
+    <div class="bars">
+      <div id="bar">HTML</div>
+      <div id="barCss">CSS</div>
+      <div id="barJs">jS</div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    
+
+
+    <!-- Projects -->
+
+      <h2 class></h2>
+
+      <h2 class="pro-h" id="projects">Projects</h2>
+
+      <div class="line">
+      <h5>The list below are the projects which I build with HTML, CSS and JavaScript. </h5>
+      <p>Visit the below websites for experiencing my work</p>
+      </div>
+      <ul>
+
+        <li>
+          <div class="todo">
+          <a href="https://ahadhan.github.io/Quiz-Game/" target="_blank" style="text-decoration: none;"><h3>Quiz Web</h3></a>
+          <p class="descrip">This is a Quiz web related to computer science questions. User will experience good logical operations and can rate my work in HTML, Css and JavaScript. Click and go to Web.
+          </p>
+          </div>
+            </li>
+
+        <li>
+      <div class="todo">
+      <a href="https://ahadhan.github.io/TIC-TAC-TOE/" target="_blank" style="text-decoration: none;"><h3>Tic Tac Toe</h3></a>
+      <p class="descrip">An amazing game based website for kids. Tic Tac Toe online game is build with the help of HTML, Css and JavaScript. Click and go to play game.
+      </p>
+      </div>
+        </li>
+
+        <li>
+          <div class="todo">
+          <a href="https://ahadhan.github.io/My_ToDo_App/" target="_blank" style="text-decoration: none;"><h3>ToDo (Notepad) Web</h3></a>
+          <p class="descrip">It is a Note-book website. In which you can add new items, also edit or delete them.
+            I build this with html5 ,css6 and some Javascript.
+          </p>
+          </div>
+            </li>
+
+      </ul> 
+  <br>
+  <br>
+  <br>
+  <br>
+    
+
+      <!-- Footer -->
+
+      <footer>
+        <span class="AK1"> <img src="images/Ahad K..jpg" alt=""> </span> </a>
+        <p class="cr">CopyRight &#169; 2004 	 </p>
+        <br><br>
+        <div class="list">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </footer>
+
+
+      
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>
